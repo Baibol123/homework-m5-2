@@ -1,4 +1,4 @@
-package com.example.homework_m5_2
+package com.example.homework_m5_2.calculate
 
 import android.content.Context
 import android.os.Bundle
@@ -9,7 +9,12 @@ import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
+import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.example.homework_m5_2.LoveCalculatorViewModel
+import com.example.homework_m5_2.LoveModel
+import com.example.homework_m5_2.R
+import com.example.homework_m5_2.RetrofitService
 import com.example.homework_m5_2.databinding.FragmentMainBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -18,7 +23,7 @@ import retrofit2.Response
 class MainFragment : Fragment() {
     private var _binding: FragmentMainBinding? = null
     private val binding get() = _binding!!
-
+    private val loveViewModel: LoveCalculatorViewModel by activityViewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

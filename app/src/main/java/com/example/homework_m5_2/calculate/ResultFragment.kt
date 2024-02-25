@@ -1,4 +1,4 @@
-package com.example.homework_m5_2
+package com.example.homework_m5_2.calculate
 
 import android.os.Build
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.navigation.fragment.findNavController
+import com.example.homework_m5_2.LoveModel
 import com.example.homework_m5_2.databinding.FragmentResultBinding
 
 

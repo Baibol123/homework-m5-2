@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.homework_m5_2.MainFragment"
+        android:name="com.example.homework_m5_2.calculate.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment2"
-        android:name="com.example.homework_m5_2.ResultFragment"
+        android:name="com.example.homework_m5_2.calculate.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" />
 
